@@ -1,6 +1,50 @@
 body{
-    background-image: url("contemp.jpg");
+    background-image: url("black.jpeg");   
     background-repeat: no-repeat;
     background-size: cover;
     
+}
+
+ul{
+    display:flex;
+    background-image: url("shopify.jpg");
+    background-attachment: scroll;
+    max-width: 1500px;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    padding:50px;
+    list-style-type: none;
+}
+
+.home{
+    color:#c80629;
+    text-decoration: none;
+    font-size: 14px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 0.2em
+}
+
+#about{
+    color:#c80629;
+    text-decoration: none;
+    font-size: 14px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 0.2em
+}
+
+.title{
+    margin-right: 38px;
 }
