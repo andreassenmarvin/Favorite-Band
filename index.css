@@ -7,12 +7,12 @@ body{
 
 ul{
     display:flex;
+    height:10vw;
     background-image: url("shopify.jpg");
-    background-attachment: scroll;
+    background-repeat: no-repeat;
     max-width: 1500px;
-    margin-top: 0px;
-    margin-bottom: 0px; 
-    position: fixed;
+    margin-top: 0px; 
+    position:fixed;
     left: 0;
     right: 0;
     top: 0;
@@ -21,7 +21,7 @@ ul{
 }
 
 ul li{
-    padding:50px;
+    padding:40px;
     list-style-type: none;
 }
 
@@ -42,9 +42,32 @@ ul li{
     font-family:'Crimson Text',serif;
     font-weight: 550;
     text-transform: uppercase;
-    letter-spacing: 0.2em
+    letter-spacing: 0.2em;
+
 }
 
 .title{
     margin-right: 38px;
+    width:190px;
+}
+
+.home:hover{
+    text-decoration: underline;
+    text-underline-offset: 0.7em;
+    text-decoration-thickness: 0.21em;
+}
+
+#about:hover{
+    text-decoration: underline;
+    text-underline-offset: 0.7em;
+    text-decoration-thickness: 0.21em;
+
+}
+
+.header{
+   background-image: url("puppets.gif");
+   height:750px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   
 }
