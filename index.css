@@ -28,7 +28,7 @@ ul li{
 .home{
     color:#c80629;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 17px;
     font-family:'Crimson Text',serif;
     font-weight: 550;
     text-transform: uppercase;
@@ -38,7 +38,7 @@ ul li{
 #about{
     color:#c80629;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 17px;
     font-family:'Crimson Text',serif;
     font-weight: 550;
     text-transform: uppercase;
@@ -70,4 +70,21 @@ ul li{
    background-size: cover;
    background-repeat: no-repeat;
    
+}
+
+.intro{
+    color:white;
+    position: absolute;
+    margin-top: 800px;
+    font-size: 19px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-indent: 50px;
+}
+
+.heading{
+    color:#c80629;
+    text-align: center;
 }
