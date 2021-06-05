@@ -83,7 +83,7 @@ ul li{
 
 .intro{
     color:white;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 24px;
     font-family:'Crimson Text',serif;
     font-weight: 550;
@@ -205,9 +205,54 @@ ul li{
     cursor:default;
     text-indent: 140px;
     line-height: 1.9;
-    margin-top: 60px;
+    margin-top:60px;
+    margin-left:50px
 }
 
 #morrow-bio{
+    margin-top: 60px;
+}
+
+.mauro-bio{
+    color:white;
+    font-size: 24px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    letter-spacing: 0.2em;
+    cursor:default;
+    text-indent: 140px;
+    line-height: 1.9;
+    margin-top: 60px;
+}
+
+#mauro{
+    width:730px;
+    height:570px
+}
+
+#vinny-bio{
+    margin-top: 60px;
+}
+
+#sit-bio{
+    color:white;
+    font-size: 24px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    letter-spacing: 0.2em;
+    cursor:default;
+    text-indent: 140px;
+    line-height: 1.9;
+    margin-top: 60px;
+    margin-left:60px
+}
+
+
+#ryan{
+    width:730px;
+    height:570px
+}
+
+#ryan-bio{
     margin-top: 60px;
 }
