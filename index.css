@@ -95,6 +95,7 @@ ul li{
 .heading{
     color:#c80629;
     text-align: center;
+    text-transform: uppercase;
     cursor:default
 }
 
@@ -139,7 +140,7 @@ ul li{
     color:#c80629;
     text-align: center;
     text-transform: uppercase;
-    font-size: 37px;
+    font-size: 40px;
     font-family:'Crimson Text',serif;
     font-weight: 650;
     cursor:default;
@@ -255,4 +256,21 @@ ul li{
 
 #ryan-bio{
     margin-top: 60px;
+}
+
+.music-h{
+    color:#c80629;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family:'Crimson Text',serif;
+    font-weight: 650;
+    cursor:default;
+    letter-spacing: 0.2em;
+    margin-top: 200px;
+}
+
+.music{
+    width:400px;
+    height:300px    
 }
