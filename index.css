@@ -7,21 +7,21 @@ body{
 
 ul{
     display:flex;
-    height:10vw;
+    position:relative;
+    height:11vw;
     background-image: url("shopify.jpg");
     background-repeat: no-repeat;
     max-width: 1500px;
-    margin-top: 0px; 
-    position:fixed;
-    left: 0;
-    right: 0;
-    top: 0;
+    margin-top: -8px; 
+    margin-bottom: 0;
+    margin-left: -8px;
+    margin-right: -8px;
     justify-content: center;
     align-items: center;
 }
 
 ul li{
-    padding:50px;
+    padding:60px;
     list-style-type: none;
 }
 
@@ -77,23 +77,25 @@ ul li{
    height:750px;
    background-size: cover;
    background-repeat: no-repeat;
+   margin-left: -8px;
+   margin-right: -8px;
 }
 
 .intro{
     color:white;
-    position: absolute;
-    margin-top: 800px;
-    font-size: 19px;
+    margin-top: 100px;
+    font-size: 24px;
     font-family:'Crimson Text',serif;
     font-weight: 550;
-    text-transform: uppercase;
     letter-spacing: 0.2em;
     text-indent: 50px;
+    cursor:default
 }
 
 .heading{
     color:#c80629;
     text-align: center;
+    cursor:default
 }
 
 #button{
@@ -129,3 +131,83 @@ ul li{
     border:2px solid #c80629
 }
 
+.bio{
+    margin-top:100px;
+}
+
+.members{
+    color:#c80629;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 37px;
+    font-family:'Crimson Text',serif;
+    font-weight: 650;
+    cursor:default;
+    letter-spacing: 0.2em;
+}
+
+.chris{
+    display:flex;
+    
+}
+
+#chris{
+    width:730px;
+    height:600px;
+    
+}
+
+#chris-bio{
+    color:white;
+    font-size: 24px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    letter-spacing: 0.2em;
+    cursor:default;
+    text-indent: 140px;
+    margin-left: 20px;
+    margin-top:50px;
+    line-height: 1.9;
+}
+
+#olson{
+    width: 760px;
+    height:600px;
+}
+
+#olson-bio{
+    color:white;
+    font-size: 24px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    letter-spacing: 0.2em;
+    cursor:default;
+    text-indent: 140px;
+    line-height: 1.9;
+    margin-top: 60px;
+}
+
+#ricky-bio{
+    margin-top:60px
+}
+
+#justin{
+    width:730px;
+    height:600px
+}
+
+#justin-bio{
+    color:white;
+    font-size: 24px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    letter-spacing: 0.2em;
+    cursor:default;
+    text-indent: 140px;
+    line-height: 1.9;
+    margin-top: 60px;
+}
+
+#morrow-bio{
+    margin-top: 60px;
+}
