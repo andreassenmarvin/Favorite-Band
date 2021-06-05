@@ -77,7 +77,6 @@ ul li{
    height:750px;
    background-size: cover;
    background-repeat: no-repeat;
-   
 }
 
 .intro{
@@ -96,3 +95,36 @@ ul li{
     color:#c80629;
     text-align: center;
 }
+
+#button{
+    position: absolute;
+    width:150px;
+    height:50px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+	background-color:transparent;
+	border:2px solid white;
+    border-radius: 6px;
+	text-decoration:none;
+	color:#c80629;;
+    font-weight: 550;
+	font-size:15px;
+    margin-top: 600px;
+    margin-left: 650px;
+    padding-left:13px ;
+    transition:all 0.4s ease-in-out;
+}
+
+#link{
+    line-height:3.3;
+}
+
+#button:hover{
+    background-color:#c80629;
+    color:white;
+    border:2px solid #c80629
+}
+
