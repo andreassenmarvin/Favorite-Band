@@ -271,6 +271,31 @@ ul li{
 }
 
 .music{
-    width:400px;
+    width:300px;
     height:300px    
 }
+
+.music-container{
+    display: flex;
+    overflow: auto;
+}
+
+.music-container2{
+    margin-top:200px;
+    overflow: auto;
+}
+
+.songs{
+    color:#c80629;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family:'Crimson Text',serif;
+    font-weight: 650;
+    cursor:default;
+    letter-spacing: 0.2em;
+}
+
+.song-list{
+    display:flex
+}
+
