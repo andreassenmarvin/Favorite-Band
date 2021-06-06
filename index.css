@@ -335,7 +335,7 @@ ul li{
 	color:white;
     font-weight: 550;
 	font-size:15px;
-    margin-left: 670px;
+    margin-left: 680px;
     top:6450px;
     padding-left:26px;
     transition:all 0.4s ease-in-out;
@@ -354,7 +354,7 @@ ul li{
     background-image: url("band.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height:580px;
+    height:810px;
     margin-top:-29px;
     margin-left: -8px;
     margin-right: -8px;
@@ -367,19 +367,19 @@ ul li{
 
 .footer-content{
     align-items: center;
+    color:black
 }
 
 
 #footer .footer-content::before{
     content:".";
-    color:#c80629;
     font-weight: bold;
     padding: 20px;
     font-size: 40px;
 }
 
 #copyright{
-    color:#c80629;
+    color:black;
     font-size: 18px;
     font-family:'Crimson Text',serif;
     font-weight: 550;
@@ -391,5 +391,9 @@ ul li{
 }
 
 .footer{
-    margin-top: -40px;
+    margin-top: -15px;
+    margin-left: -7px;
+    margin-right: -8px;
+    margin-bottom: -18px;
+    background-color: white;
 }
