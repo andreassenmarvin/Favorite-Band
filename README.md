@@ -6,5 +6,5 @@
 * CSS
 ## Support and contact details
 **Email**:machariamarvin625@gmail.com<br/>
-**Phone number**:+254759082650}<br/>
+**Phone number**:+254759082650<br/>
 Copyright (c) 2021 **Marvin Macharia**
