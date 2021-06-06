@@ -5,7 +5,7 @@ body{
     
 }
 
-ul{
+.navigation{
     display:flex;
     position:relative;
     height:11vw;
@@ -335,8 +335,8 @@ ul li{
 	color:white;
     font-weight: 550;
 	font-size:15px;
-    margin-left: 700px;
-    margin-top: 80px;
+    margin-left: 740px;
+    margin-top: 10px;
     padding-left:26px;
     transition:all 0.4s ease-in-out;
 }
@@ -348,3 +348,47 @@ ul li{
 .more:hover{
     background: black; 
 }
+
+.footer{
+    background-image: url("band.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:700px;
+    margin-top:-16px;
+    margin-left: -8px;
+    margin-right: -8px;
+    opacity:0.8
+}
+
+#footer{
+    display: flex;
+}
+
+.footer-content{
+    margin-top: 470px;
+}
+
+#footer .footer-content::before{
+    content:".";
+    color:#c80629;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 40px;
+}
+
+#copyright{
+    color:#c80629;
+    font-size: 18px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    transition:all 0.6s ease-in-out;
+    margin-left: 450px;
+}
+
+
+
+
+
+
