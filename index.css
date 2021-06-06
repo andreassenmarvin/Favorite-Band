@@ -113,7 +113,7 @@ ul li{
 	border:2px solid white;
     border-radius: 6px;
 	text-decoration:none;
-	color:#c80629;;
+	color:white;;
     font-weight: 550;
 	font-size:15px;
     margin-top: 600px;
@@ -259,7 +259,6 @@ ul li{
 }
 
 .music-h{
-    color:#c80629;
     text-align: center;
     text-transform: uppercase;
     font-size: 40px;
@@ -268,6 +267,18 @@ ul li{
     cursor:default;
     letter-spacing: 0.2em;
     margin-top: 200px;
+    padding-top: 90px;
+}
+
+.music-h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family:'Crimson Text',serif;
+    font-weight: 650;
+    cursor:default;
+    letter-spacing: 0.2em;
+    padding-top:50px;
 }
 
 .music{
@@ -276,26 +287,64 @@ ul li{
 }
 
 .music-container{
-    display: flex;
     overflow: auto;
 }
 
 .music-container2{
-    margin-top:200px;
+    margin-top:70px;
     overflow: auto;
 }
 
 .songs{
-    color:#c80629;
     font-size: 23px;
     text-transform: uppercase;
     font-family:'Crimson Text',serif;
-    font-weight: 650;
+    font-weight: 540;
     cursor:default;
     letter-spacing: 0.2em;
 }
 
 .song-list{
-    display:flex
+    display:flex;
 }
 
+.song-links{
+    text-decoration: none;
+    color:black ;
+}
+
+.miw-songs{
+    background-color: white;
+    margin-left:-8px;
+    margin-right: -8px
+}
+
+.more{
+    position: absolute;
+    width:90px;
+    height:50px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+	background-color:#c80629;
+	border:2px solid white;
+    border-radius: 9px;
+	text-decoration:none;
+	color:white;
+    font-weight: 550;
+	font-size:15px;
+    margin-left: 700px;
+    margin-top: 80px;
+    padding-left:26px;
+    transition:all 0.4s ease-in-out;
+}
+
+#more{
+    line-height: 3.5;
+}
+
+.more:hover{
+    background: black; 
+}
