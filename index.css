@@ -2,7 +2,6 @@ body{
     background-image: url("black.jpeg");   
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 .navigation{
@@ -113,7 +112,7 @@ ul li{
 	border:2px solid white;
     border-radius: 6px;
 	text-decoration:none;
-	color:white;;
+	color:white;
     font-weight: 550;
 	font-size:15px;
     margin-top: 600px;
@@ -207,7 +206,7 @@ ul li{
     text-indent: 140px;
     line-height: 1.9;
     margin-top:60px;
-    margin-left:50px
+    margin-left:50px;
 }
 
 #morrow-bio{
