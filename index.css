@@ -2089,3 +2089,424 @@ ul li{
         margin-left: -90px;
     }
 }
+
+
+/***For large devices***/
+
+@media screen and (min-width : 1200px) and (min-height: 20px) and (max-height :720px){
+    body{
+        background-image: url("black.jpeg");   
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .navigation{
+        display:flex;
+        position:relative;
+        height:11vw;
+        background-image: url("shopify.jpg");
+        background-repeat: no-repeat;
+        max-width: 1500px;
+        margin-top: -8px; 
+        margin-bottom: 0;
+        margin-left: -8px;
+        margin-right: -8px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    ul li{
+        padding:60px;
+        list-style-type: none;
+    }
+    
+    .home{
+        color:#c80629;
+        text-decoration: underline;
+        text-decoration-color:transparent;
+        font-size: 18px;
+        font-family:'Crimson Text',serif;
+        font-weight: 550;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        transition:all 1.0s ease-in-out;
+        text-underline-offset: 0.3em;
+        text-decoration-thickness: 0.21em;
+    }
+    
+    #about{
+        color:#c80629;
+        text-decoration: underline;
+        text-decoration-color:transparent;
+        font-size: 18px;
+        font-family:'Crimson Text',serif;
+        font-weight: 550;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        transition:all 0.6s ease-in-out;
+        text-underline-offset: 0.3em;
+        text-decoration-thickness: 0.21em;
+    
+    }
+    
+    .title{
+        margin-right: 38px;
+        width:180px;
+    }
+    
+    .home:hover{
+        text-decoration: underline;
+        text-underline-offset: 0.7em;
+        text-decoration-thickness: 0.21em;
+    }
+    
+    #about:hover{
+        text-decoration: underline;
+        text-underline-offset: 0.7em;
+        text-decoration-thickness: 0.21em;
+       
+    }
+    
+    .header{
+       background-image: url("puppets.gif");
+       height:750px;
+       background-size: cover;
+       background-repeat: no-repeat;
+       margin-left: -8px;
+       margin-right: -8px;
+    }
+    
+    .intro{
+        color:white;
+        margin-top: 50px;
+        font-size: 24px;
+        font-family:'Crimson Text',serif;
+        font-weight: 550;
+        letter-spacing: 0.2em;
+        text-indent: 50px;
+        cursor:default
+    }
+    
+    .heading{
+        color:#c80629;
+        text-align: center;
+        text-transform: uppercase;
+        cursor:default
+    }
+    
+    #button{
+        position:absolute;
+        background: transparent;
+        width:150px;
+        height:50px;
+        font-family:'Crimson Text',serif;
+        font-weight: 550;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        cursor: pointer;
+        background-color:transparent;
+        border:2px solid white;
+        border-radius: 6px;
+        text-decoration:none;
+        color:white;
+        font-weight: 550;
+        font-size:15px;
+        margin-top: 600px;
+        margin-left: 650px;
+        padding-left:13px ;
+        transition:all 0.4s ease-in-out;
+    }
+    
+    #link{
+        line-height:3.3;
+    }
+    
+    #button:hover{
+        background-color:#c80629;
+        color:white;
+        border:2px solid #c80629
+    }
+    
+    .bio{
+        margin-top:100px;
+    }
+    
+    .members{
+        color:#c80629;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 40px;
+        font-family:'Crimson Text',serif;
+        font-weight: 650;
+        cursor:default;
+        letter-spacing: 0.2em;
+    }
+    
+    .chris{
+        display:flex;
+        
+    }
+    
+    #chris{
+        width:730px;
+        height:600px;
+        
+    }
+    
+    #chris-bio{
+        color:white;
+        font-size: 24px;
+        font-family:'Crimson Text',serif;
+        font-weight: 550;
+        letter-spacing: 0.2em;
+        cursor:default;
+        text-indent: 140px;
+        margin-left: 20px;
+        margin-top:50px;
+        line-height: 1.9;
+    }
+    
+    #olson{
+        width: 760px;
+        height:600px;
+    }
+    
+    #olson-bio{
+        color:white;
+        font-size: 24px;
+        font-family:'Crimson Text',serif;
+        font-weight: 550;
+        letter-spacing: 0.2em;
+        cursor:default;
+        text-indent: 140px;
+        line-height: 1.9;
+        margin-top: 60px;
+    }
+    
+    #ricky-bio{
+        margin-top:60px
+    }
+    
+    #justin{
+        width:730px;
+        height:600px
+    }
+    
+    #justin-bio{
+        color:white;
+        font-size: 24px;
+        font-family:'Crimson Text',serif;
+        font-weight: 550;
+        letter-spacing: 0.2em;
+        cursor:default;
+        text-indent: 140px;
+        line-height: 1.9;
+        margin-top:60px;
+        margin-left:50px;
+    }
+    
+    #morrow-bio{
+        margin-top: 60px;
+    }
+    
+    .mauro-bio{
+        color:white;
+        font-size: 24px;
+        font-family:'Crimson Text',serif;
+        font-weight: 550;
+        letter-spacing: 0.2em;
+        cursor:default;
+        text-indent: 140px;
+        line-height: 1.9;
+        margin-top: 60px;
+    }
+    
+    #mauro{
+        width:730px;
+        height:570px
+    }
+    
+    #vinny-bio{
+        margin-top: 60px;
+    }
+    
+    #sit-bio{
+        color:white;
+        font-size: 24px;
+        font-family:'Crimson Text',serif;
+        font-weight: 550;
+        letter-spacing: 0.2em;
+        cursor:default;
+        text-indent: 140px;
+        line-height: 1.9;
+        margin-top: 60px;
+        margin-left:60px
+    }
+    
+    
+    #ryan{
+        width:730px;
+        height:570px
+    }
+    
+    #ryan-bio{
+        margin-top: 60px;
+    }
+    
+    .music-h{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 40px;
+        font-family:'Crimson Text',serif;
+        font-weight: 650;
+        cursor:default;
+        letter-spacing: 0.2em;
+        margin-top: 200px;
+        padding-top: 90px;
+    }
+    
+    .music-h1{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 35px;
+        font-family:'Crimson Text',serif;
+        font-weight: 650;
+        cursor:default;
+        letter-spacing: 0.2em;
+        padding-top:50px;
+    }
+    
+    .music{
+        width:300px;
+        height:300px    
+    }
+    
+    .music-container{
+        overflow: auto;
+    }
+    
+    .music-container2{
+        margin-top:70px;
+        overflow: auto;
+    }
+    
+    .songs{
+        font-size: 23px;
+        text-transform: uppercase;
+        font-family:'Crimson Text',serif;
+        font-weight: 540;
+        cursor:default;
+        letter-spacing: 0.2em;
+    }
+    
+    .song-list{
+        display:flex;
+    }
+    
+    .song-links{
+        text-decoration: none;
+        color:black ;
+    }
+    
+    .miw-songs{
+        background-color: white;
+        margin-left:-8px;
+        margin-right: -8px
+    }
+    
+    .more{
+        position: absolute;
+        width:90px;
+        height:50px;
+        font-family:'Crimson Text',serif;
+        font-weight: 550;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        cursor: pointer;
+        background-color:#c80629;
+        border:2px solid #c80629;
+        border-radius: 9px;
+        text-decoration:none;
+        color:white;
+        font-weight: 550;
+        font-size:15px;
+        margin-left: 680px;
+        top:6450px;
+        padding-left:26px;
+        transition:all 0.4s ease-in-out;
+    }
+    
+    #more{
+        line-height: 3.5;
+    }
+    
+    .more-p{
+        font-size: 27px;
+        margin-top: 70px;
+        font-family:'Crimson Text',serif;
+        font-weight: 540;
+        letter-spacing: 0.2em;
+        cursor:default;
+        line-height: 1.9;
+        text-align: center;
+    }
+    
+    .more:hover{
+        background: black; 
+        border:2px solid black;
+    }
+    
+    .footer-image{
+        background-image: url("band.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:810px;
+        margin-top:-29px;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    
+    #footer{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footer-content{
+        align-items: center;
+        color:black
+    }
+    
+    
+    #footer .footer-content::before{
+        content:".";
+        font-weight: bold;
+        padding: 20px;
+        font-size: 40px;
+    }
+    
+    #copyright{
+        color:black;
+        font-size: 18px;
+        font-family:'Crimson Text',serif;
+        font-weight: 550;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        transition:all 0.6s ease-in-out;
+        margin-left: 450px;
+        cursor:default
+    }
+    
+    .footer{
+        margin-top: -15px;
+        margin-left: -7px;
+        margin-right: -8px;
+        margin-bottom: -18px;
+        background-color: white;
+    }
+    
+    .macharia{
+        font-weight:540;
+        margin-left: 150px;
+        font-size: 18px;
+    }
+}
