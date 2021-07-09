@@ -414,7 +414,12 @@ ul li{
     font-size: 18px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 500px) and (orientation: portrait){
+
+/***for small devices***/
+
+/***portrait and landscape***/
+
+@media screen and (min-width: 240px) and (max-width: 580px) and (min-height : 20px) and (max-height :780px){
     
     html{
         scroll-behavior: smooth;
@@ -431,6 +436,819 @@ ul li{
         box-shadow: 1px 1px 7px black;
         height:16vw;
         width: 92%;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+ul li{
+    padding:20px;
+    list-style-type: none;
+    
+}
+
+.home{
+    color:#c80629;
+    text-decoration: underline;
+    text-decoration-color:transparent;
+    font-size: 14px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    transition:all 1.0s ease-in-out;
+    text-underline-offset: 0.3em;
+    text-decoration-thickness: 0.21em;
+}
+
+#about{
+    color:#c80629;
+    text-decoration: underline;
+    text-decoration-color:transparent;
+    font-size: 14px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    transition:all 0.6s ease-in-out;
+    text-underline-offset: 0.3em;
+    text-decoration-thickness: 0.21em;
+
+}
+
+.title{
+    margin-right: 20px;
+    width:75px;
+}
+
+.header{
+    background-image: url("puppets.gif");
+    width: 100%;
+    height:340px;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+
+ #button{
+    position:absolute;
+    width:100px;
+    height:35px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+	background-color:transparent;
+	border:2px solid white;
+    border-radius: 6px;
+	text-decoration:none;
+	color:white;
+	font-size:10px;
+    margin-top: 270px;
+    margin-left: 200px;
+    padding-left:13px ;
+    transition:all 0.4s ease-in-out;
+}
+
+.intro{
+    color:white;
+    margin-top: 40px;
+    font-size: 14px;
+    width: 99%;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    letter-spacing: 0.1em;
+    text-indent: 20px;
+    cursor:default
+}
+
+.heading{
+    color:#c80629;
+    text-align: center;
+    text-transform: uppercase;
+    cursor:default
+}
+
+.bio{
+    margin-top: 40px;
+    width: 100%;
+}
+
+.members{
+    color:#c80629;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family:'Crimson Text',serif;
+    font-weight: 650;
+    cursor:default;
+    margin-left: 15px;
+    letter-spacing: 0.1em;
+}
+
+.chris{
+    display:flex;
+    
+}
+
+#chris{
+    width:50%;
+    height:200px;
+    
+}
+
+#chris-bio{
+    width: 48%;
+    color:white;
+    font-size: 14px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    letter-spacing: 0.1em;
+    cursor:default;
+    text-indent: 20px;
+    margin-left: 8px;
+    margin-top:8px;
+    line-height: 1.0;
+}
+
+#olson{
+    width: 48%;
+    height:220px;
+}
+
+#olson-bio{
+    color:white;
+    font-size: 14px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    letter-spacing: 0.1em;
+    cursor:default;
+    text-indent: 10px;
+    line-height: 1.0;
+    margin-top: 8px;
+    width: 50%;
+}
+
+#ricky-bio{
+    margin-top:40px
+}
+
+#justin{
+    width:50%;
+    height:260px
+}
+
+#justin-bio{
+    width: 50%;
+    color:white;
+    font-size: 14px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    letter-spacing: 0.1em;
+    cursor:default;
+    text-indent: 20px;
+    line-height: 1.0;
+    margin-top:4px;
+    margin-left:20px;
+}
+
+#morrow-bio{
+    margin-top:50px;
+}
+
+.mauro-bio{
+    width: 50%;
+    color:white;
+    font-size: 14px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    letter-spacing: 0.1em;
+    cursor:default;
+    text-indent: 15px;
+    line-height: 1.0;
+    margin-top: 20px;
+}
+
+#mauro{
+    width:48%;
+    height:200px
+}
+
+#vinny-bio{
+    margin-top: 50px;
+}
+
+#sit-bio{
+    color:white;
+    font-size: 14px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    letter-spacing: 0.1em;
+    cursor:default;
+    width: 50%;
+    text-indent: 7px;
+    line-height: 1.0;
+    margin-top: 4px;
+    margin-left:8px
+}
+
+
+#ryan{
+    width:50%;
+    height:230px
+}
+
+#ryan-bio{
+    margin-top: 60px;
+}
+
+.music-h{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family:'Crimson Text',serif;
+    font-weight: 650;
+    cursor:default;
+    letter-spacing: 0.1em;
+    margin-top: 60px;
+    padding-top: 30px;
+}
+
+.music-h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family:'Crimson Text',serif;
+    font-weight: 650;
+    cursor:default;
+    letter-spacing: 0.1em;
+    padding-top:20px;
+}
+
+.music{
+    width:100px;
+    height:100px; 
+}
+
+.music-container{
+    overflow: auto;
+}
+
+.music-container2{
+    margin-top:70px;
+    overflow: auto;
+}
+
+
+.songs{
+    position: relative;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family:'Crimson Text',serif;
+    font-weight: 540;
+    cursor:default;
+    letter-spacing: 0.1em;
+    right: 65px;
+}
+
+.song-list{
+    display:flex;
+}
+
+.song-links{
+    text-decoration: none;
+    color:black ;
+}
+
+.miw-songs{
+    background-color: white;
+    width: 100%;
+    margin-right: -8px
+}
+
+.more{
+    position: absolute;
+    width:60px;
+    height:30px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+	background-color:#c80629;
+	border:2px solid #c80629;
+    border-radius: 9px;
+	text-decoration:none;
+	color:white;
+    font-weight: 550;
+	font-size:12px;
+    margin-left: 200px;
+    top:3080px;
+    padding-left:26px;
+    transition:all 0.4s ease-in-out;
+}
+
+.more-p{
+    margin-top: 22px;
+    font-size: 16px;
+}
+
+#more{
+    line-height: 2.6;
+    margin-left: -6px;
+}
+
+.more:hover{
+    background: black; 
+    border:2px solid black;
+}
+
+.footer-image{
+    background-image: url("band.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    height:310px;
+    margin-top:-69px;
+}
+
+.footer{
+    width: 100%;
+    height: 26vw;
+    margin-top: -15px;
+    margin-bottom: -18px;
+    background-color: white;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content{
+    padding: 15px;
+}
+
+.r-f-content{
+    font-size: 9px;
+}
+
+#footer .footer-content::before{
+    content:".";
+    font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#copyright{
+    color:black;
+    font-size: 11px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition:all 0.6s ease-in-out;
+    margin-left: 100px;
+    cursor:default
+}
+
+.macharia{
+    font-weight:540;
+    margin-left: 90px;
+    font-size: 13px;
+}
+
+}
+
+
+/***portrait***/
+
+
+@media screen and (min-width: 240px) and (max-width: 580px) and (min-height : 320px) and (max-height :620px) and (orientation: portrait){
+    
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    body{
+        width: 100%;
+        background-color: black;  
+        height: 100vw;
+    }
+
+    .navigation{
+        display:flex;
+        box-shadow: 1px 1px 7px black;
+        height:16vw;
+        width: 92%;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+ul li{
+    padding:20px;
+    list-style-type: none;
+    
+}
+
+.home{
+    color:#c80629;
+    text-decoration: underline;
+    text-decoration-color:transparent;
+    font-size: 14px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    transition:all 1.0s ease-in-out;
+    text-underline-offset: 0.3em;
+    text-decoration-thickness: 0.21em;
+}
+
+#about{
+    color:#c80629;
+    text-decoration: underline;
+    text-decoration-color:transparent;
+    font-size: 14px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    transition:all 0.6s ease-in-out;
+    text-underline-offset: 0.3em;
+    text-decoration-thickness: 0.21em;
+
+}
+
+.title{
+    margin-right: 20px;
+    width:75px;
+}
+
+.header{
+    background-image: url("puppets.gif");
+    width: 100%;
+    height:340px;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+
+ #button{
+    position:absolute;
+    width:100px;
+    height:35px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+	background-color:transparent;
+	border:2px solid white;
+    border-radius: 6px;
+	text-decoration:none;
+	color:white;
+	font-size:10px;
+    margin-top: 270px;
+    margin-left: 200px;
+    padding-left:13px ;
+    transition:all 0.4s ease-in-out;
+}
+
+.intro{
+    color:white;
+    margin-top: 40px;
+    font-size: 14px;
+    width: 99%;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    letter-spacing: 0.1em;
+    text-indent: 20px;
+    cursor:default
+}
+
+.heading{
+    color:#c80629;
+    text-align: center;
+    text-transform: uppercase;
+    cursor:default
+}
+
+.bio{
+    margin-top: 40px;
+    width: 100%;
+}
+
+.members{
+    color:#c80629;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family:'Crimson Text',serif;
+    font-weight: 650;
+    cursor:default;
+    margin-left: 15px;
+    letter-spacing: 0.1em;
+}
+
+.chris{
+    display:flex;
+    
+}
+
+#chris{
+    width:50%;
+    height:200px;
+    
+}
+
+#chris-bio{
+    width: 48%;
+    color:white;
+    font-size: 14px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    letter-spacing: 0.1em;
+    cursor:default;
+    text-indent: 20px;
+    margin-left: 8px;
+    margin-top:8px;
+    line-height: 1.0;
+}
+
+#olson{
+    width: 48%;
+    height:220px;
+}
+
+#olson-bio{
+    color:white;
+    font-size: 14px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    letter-spacing: 0.1em;
+    cursor:default;
+    text-indent: 10px;
+    line-height: 1.0;
+    margin-top: 8px;
+    width: 50%;
+}
+
+#ricky-bio{
+    margin-top:40px
+}
+
+#justin{
+    width:50%;
+    height:260px
+}
+
+#justin-bio{
+    width: 50%;
+    color:white;
+    font-size: 14px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    letter-spacing: 0.1em;
+    cursor:default;
+    text-indent: 20px;
+    line-height: 1.0;
+    margin-top:4px;
+    margin-left:20px;
+}
+
+#morrow-bio{
+    margin-top:50px;
+}
+
+.mauro-bio{
+    width: 50%;
+    color:white;
+    font-size: 14px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    letter-spacing: 0.1em;
+    cursor:default;
+    text-indent: 15px;
+    line-height: 1.0;
+    margin-top: 20px;
+}
+
+#mauro{
+    width:48%;
+    height:200px
+}
+
+#vinny-bio{
+    margin-top: 50px;
+}
+
+#sit-bio{
+    color:white;
+    font-size: 14px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    letter-spacing: 0.1em;
+    cursor:default;
+    width: 50%;
+    text-indent: 7px;
+    line-height: 1.0;
+    margin-top: 4px;
+    margin-left:8px
+}
+
+
+#ryan{
+    width:50%;
+    height:230px
+}
+
+#ryan-bio{
+    margin-top: 60px;
+}
+
+.music-h{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family:'Crimson Text',serif;
+    font-weight: 650;
+    cursor:default;
+    letter-spacing: 0.1em;
+    margin-top: 60px;
+    padding-top: 30px;
+}
+
+.music-h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family:'Crimson Text',serif;
+    font-weight: 650;
+    cursor:default;
+    letter-spacing: 0.1em;
+    padding-top:20px;
+}
+
+.music{
+    width:100px;
+    height:100px; 
+}
+
+.music-container{
+    overflow: auto;
+}
+
+.music-container2{
+    margin-top:70px;
+    overflow: auto;
+}
+
+
+.songs{
+    position: relative;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family:'Crimson Text',serif;
+    font-weight: 540;
+    cursor:default;
+    letter-spacing: 0.1em;
+    right: 65px;
+}
+
+.song-list{
+    display:flex;
+}
+
+.song-links{
+    text-decoration: none;
+    color:black ;
+}
+
+.miw-songs{
+    background-color: white;
+    width: 100%;
+    margin-right: -8px
+}
+
+.more{
+    position: absolute;
+    width:60px;
+    height:30px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+	background-color:#c80629;
+	border:2px solid #c80629;
+    border-radius: 9px;
+	text-decoration:none;
+	color:white;
+    font-weight: 550;
+	font-size:12px;
+    margin-left: 200px;
+    top:3080px;
+    padding-left:26px;
+    transition:all 0.4s ease-in-out;
+}
+
+.more-p{
+    margin-top: 22px;
+    font-size: 16px;
+}
+
+#more{
+    line-height: 2.6;
+    margin-left: -6px;
+}
+
+.more:hover{
+    background: black; 
+    border:2px solid black;
+}
+
+.footer-image{
+    background-image: url("band.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    height:310px;
+    margin-top:-69px;
+}
+
+.footer{
+    width: 100%;
+    height: 26vw;
+    margin-top: -15px;
+    margin-bottom: -18px;
+    background-color: white;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content{
+    padding: 15px;
+}
+
+.r-f-content{
+    font-size: 9px;
+}
+
+#footer .footer-content::before{
+    content:".";
+    font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#copyright{
+    color:black;
+    font-size: 11px;
+    font-family:'Crimson Text',serif;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition:all 0.6s ease-in-out;
+    margin-left: 100px;
+    cursor:default
+}
+
+.macharia{
+    font-weight:540;
+    margin-left: 90px;
+    font-size: 13px;
+}
+
+}
+
+
+/***landscape***/
+
+
+@media screen and (min-width: 140px) and (max-width: 580px) and (min-height: 380px) and (max-height: 620px) and (orientation: landscape){
+    
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    body{
+        background-image: url("black.jeg");
+        width: 100%;
+        background-color: black;  
+        height: 100vw;
+    }
+
+    .navigation{
+        display:flex;
+        box-shadow: 1px 1px 7px black;
+        height:16vw;
+        width: 100%;
         justify-content: center;
         align-items: center;
     }
@@ -814,4 +1632,460 @@ ul li{
     font-size: 13px;
 }
 
+}
+
+
+/***For medium devices***/
+
+/***portrait and landscape***/
+
+@media all and (min-width: 581px) and (max-width: 1199px) and (min-height : 20px) and (max-height:780px){
+    
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    body{
+        background-image: url("black.jpeg");  
+        width: 100%; 
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .navigation{
+        display:flex;
+        position:relative;
+        height:16vw;
+        background-image: url("shopify.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        margin-top: -8px; 
+        margin-bottom: 0;
+        margin-left: -8px;
+        margin-right: -8px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    ul li{
+        padding:40px;
+        list-style-type: none;
+    }
+    
+    .home{
+        color:#c80629;
+        text-decoration: underline;
+        text-decoration-color:transparent;
+        font-size: 15px;
+        font-family:'Crimson Text',serif;
+        font-weight: 550;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        transition:all 1.0s ease-in-out;
+        text-underline-offset: 0.3em;
+        text-decoration-thickness: 0.21em;
+    }
+    
+    #about{
+        color:#c80629;
+        text-decoration: underline;
+        text-decoration-color:transparent;
+        font-size: 15px;
+        font-family:'Crimson Text',serif;
+        font-weight: 550;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        transition:all 0.6s ease-in-out;
+        text-underline-offset: 0.3em;
+        text-decoration-thickness: 0.21em;
+    
+    }
+    
+    .title{
+        margin-right: 38px;
+        width:120px;
+    }
+    
+    .home:hover{
+        text-decoration: underline;
+        text-underline-offset: 0.7em;
+        text-decoration-thickness: 0.21em;
+    }
+    
+    #about:hover{
+        text-decoration: underline;
+        text-underline-offset: 0.7em;
+        text-decoration-thickness: 0.21em;
+       
+    }
+    
+    .header{
+       background-image: url("puppets.gif");
+       height:500px;
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+       margin-left: -8px;
+       margin-right: -8px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    .intro{
+        color:white;
+        margin-top: 45px;
+        font-size: 18px;
+        font-family:'Crimson Text',serif;
+        font-weight: 550;
+        letter-spacing: 0.2em;
+        text-indent: 35px;
+        cursor:default
+    }
+    
+    .heading{
+        color:#c80629;
+        text-align: center;
+        text-transform: uppercase;
+        cursor:default
+    }
+    
+    #button{
+        position:absolute;
+        background: transparent;
+        width:130px;
+        height:40px;
+        font-family:'Crimson Text',serif;
+        font-weight: 550;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        cursor: pointer;
+        background-color:transparent;
+        border:2px solid white;
+        border-radius: 6px;
+        text-decoration:none;
+        color:white;
+        font-weight: 550;
+        font-size:13px;
+        margin-top: 380px;
+        margin-left: 40px;
+        padding-left:13px ;
+        transition:all 0.4s ease-in-out;
+    }
+    
+    #link{
+        line-height:2.9;
+    }
+    
+    #button:hover{
+        background-color:#c80629;
+        color:white;
+        border:2px solid #c80629
+    }
+    
+    .bio{
+        margin-top:60px;
+        width: 100%;
+    }
+    
+    .members{
+        color:#c80629;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 40px;
+        font-family:'Crimson Text',serif;
+        font-weight: 650;
+        cursor:default;
+        letter-spacing: 0.2em;
+    }
+    
+    .chris{
+        display:flex;
+        
+    }
+    
+    #chris{
+        width:400px;
+        height:400px;
+        
+    }
+    
+    #chris-bio{
+        color:white;
+        font-size: 18px;
+        font-family:'Crimson Text',serif;
+        font-weight: 550;
+        letter-spacing: 0.2em;
+        cursor:default;
+        text-indent: 30px;
+        margin-left: 20px;
+        margin-top:20px;
+        line-height: 1.1;
+    }
+    
+    #olson{
+        width: 400px;
+        height:400px;
+    }
+    
+    #olson-bio{
+        color:white;
+        font-size: 18px;
+        font-family:'Crimson Text',serif;
+        font-weight: 550;
+        letter-spacing: 0.2em;
+        cursor:default;
+        text-indent: 50px;
+        line-height: 1.1;
+        margin-top: 20px;
+    }
+    
+    #ricky-bio{
+        margin-top:50px
+    }
+    
+    #justin{
+        width:400px;
+        height:400px
+    }
+    
+    #justin-bio{
+        color:white;
+        font-size: 16px;
+        font-family:'Crimson Text',serif;
+        font-weight: 550;
+        letter-spacing: 0.2em;
+        cursor:default;
+        text-indent: 30px;
+        line-height: 1.1;
+        margin-top:30px;
+        margin-left:20px;
+    }
+    
+    #morrow-bio{
+        margin-top: 50px;
+    }
+    
+    .mauro-bio{
+        color:white;
+        font-size: 16px;
+        font-family:'Crimson Text',serif;
+        font-weight: 550;
+        letter-spacing: 0.2em;
+        cursor:default;
+        text-indent: 40px;
+        line-height: 1.3;
+        margin-top: 60px;
+    }
+    
+    #mauro{
+        width:400px;
+        height:370px
+    }
+    
+    #vinny-bio{
+        margin-top: 50px;
+    }
+    
+    #sit-bio{
+        color:white;
+        font-size: 16px;
+        font-family:'Crimson Text',serif;
+        font-weight: 550;
+        letter-spacing: 0.2em;
+        cursor:default;
+        text-indent: 60px;
+        line-height: 1.1;
+        margin-top: 40px;
+        margin-left:15px
+    }
+    
+    
+    #ryan{
+        width:400px;
+        height:400px
+    }
+    
+    #ryan-bio{
+        margin-top: 50px;
+    }
+    
+    .music-h{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-family:'Crimson Text',serif;
+        font-weight: 650;
+        cursor:default;
+        letter-spacing: 0.2em;
+        margin-top: 90px;
+        padding-top: 45px;
+    }
+    
+    .music-h1{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-family:'Crimson Text',serif;
+        font-weight: 650;
+        cursor:default;
+        letter-spacing: 0.2em;
+        padding-top:30px;
+    }
+    
+    .music{
+        width:220px;
+        height:220px    
+    }
+    
+    .music-container{
+        overflow: auto;
+        width: 100%;
+    }
+    
+    .music-container2{
+        margin-top:40px;
+        overflow: auto;
+        width: 100%;
+    }
+    
+    .songs{
+        position: relative;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-family:'Crimson Text',serif;
+        font-weight: 540;
+        right: 25px;
+        cursor:default;
+        letter-spacing: 0.2em;
+    }
+    
+    .song-list{
+        display:flex;
+    }
+    
+    .song-links{
+        text-decoration: none;
+        color:black ;
+    }
+    
+    .miw-songs{
+        background-color: white;
+        margin-left:-8px;
+        margin-right: -8px;
+        width: 100%;
+    }
+    
+    .more{
+        position: absolute;
+        width:70px;
+        height:40px;
+        font-family:'Crimson Text',serif;
+        font-weight: 550;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        cursor: pointer;
+        background-color:#c80629;
+        border:2px solid #c80629;
+        border-radius: 9px;
+        text-decoration:none;
+        color:white;
+        font-weight: 550;
+        font-size:14px;
+        margin-left: 280px;
+        top:4660px;
+        padding-left:16px;
+        transition:all 0.4s ease-in-out;
+    }
+    
+    #more{
+        line-height: 3.0;
+    }
+    
+    .more-p{
+        font-size: 21px;
+        margin-top: 30px;
+        font-family:'Crimson Text',serif;
+        font-weight: 540;
+        letter-spacing: 0.2em;
+        cursor:default;
+        line-height: 1.9;
+        text-align: center;
+    }
+    
+    .more:hover{
+        background: black; 
+        border:2px solid black;
+    }
+    
+    .footer-image{
+        background-image: url("band.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        width:100%;
+        height:500px;
+        margin-top:-52px;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    
+    #footer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer{
+        width: 100%;
+        height: 20vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: -7px;
+        margin-right: -8px;
+        margin-bottom: -8px;
+        background-color: white;
+    }
+    
+    .footer-content{
+        justify-content: center;
+        align-items: center;
+        color:black;
+        display: flex;
+        justify-content: center;
+        padding: 6px;
+    }
+    
+    
+    #footer .footer-content::before{
+        content:".";
+        display: flex;
+        margin-top: -15px;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        padding: 10px;
+        font-size: 30px;
+    }
+    
+    #copyright{
+        width: 100%;
+        color:black;
+        margin-left: 15px;
+        font-size: 14px;
+        text-align: center;
+        font-family:'Crimson Text',serif;
+        font-weight: 550;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        transition:all 0.6s ease-in-out;
+        cursor:default
+    }
+    
+    .macharia{
+        position: absolute;
+        font-weight:540;
+        font-size: 14px;
+        margin-left: -90px;
+    }
 }
