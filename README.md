@@ -1,7 +1,6 @@
 # MY FAVORITE BAND
 #### This is a website of my favorite band,about my favorite music band,describing all about the members and their music.
 #### By **Marvin Macharia**
-## Description
 ## Setup/Installation Requirements
 * Fork/Clone the repository
 ```
@@ -16,7 +15,7 @@
 * CSS
 ## Support and contact details
 #### Incase of any contributions,query or issues,you can reach me through the email below:
-*machariamarvin625@gmail.com*
+machariamarvin625@gmail.com
 ### License
 **MIT**
 Copyright (c) 2021 **MARVIN MACHARIA**
